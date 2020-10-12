@@ -10,9 +10,9 @@ gem 'geocoder', '~> 1.5', '>= 1.5.1'
 gem 'puma', '~> 4.1'
 gem 'ransack'
 gem 'rack-cors'
-gem 'sqlite3', '~> 1.4'
 
 group :development, :test do
+  gem 'sqlite3', '~> 1.4'
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
